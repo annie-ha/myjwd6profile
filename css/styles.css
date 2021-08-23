@@ -1,0 +1,113 @@
+body {
+    padding: 0px;
+    margin: 0px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 13px;
+}
+
+/* style for header image */
+header > figure > img {
+    width: 100px;
+    height: 100px;
+}
+
+/* Add a background colour to the top navigation */
+nav {
+    background-color: rgb(211, 222, 255);
+    text-align: center;
+}
+
+/* style the links inside the nav */
+nav > a {
+    color: black;
+    font-family: 'Arial', Times, serif;
+    text-decoration: none;
+    padding: 1em;
+}
+
+/* Change the color on hover */
+nav > a:hover {
+    color: rgb(183, 201, 255);
+}
+
+nav > a:visited {
+    color: rgb(211, 222, 255);
+}
+
+/* Profile image */
+.headshot {
+    position: absolute;
+    margin-top: 2%;
+    margin-left: 2%;
+}
+
+.mypic {
+    border-radius: 50%;
+    height: 200px;
+    width: 200px;
+}
+
+/* style for page content */
+
+.pagecontent {
+    width: 70%;
+    margin: auto;
+    font-size: 1rem;
+    border: 1px solid rgb(97, 97, 97);
+    margin-top: 5%;
+}
+
+.pagecontent > article > p {
+    padding: 2px;
+    font-size: 1em;
+    margin: 5%;
+    color: rgb(72, 3, 94);
+}
+
+/* begin about */
+.about {
+    width: 70%;
+    margin: auto;
+    text-align: justify;
+}
+
+/* begin contact */
+.contact {
+    border: 1px solid rgb(109, 103, 103);
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+    width: 70%;
+    margin: auto;
+    font-size: 1em;
+}
+
+input [type="text"] {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+
+input [type="submit"] {
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input [type="submit"]:hover {
+    color:rgb(97, 97, 97);
+}
+
+/* end contact */
+footer {
+    padding-top: 40px;
+    text-align: center;
+    font-size: 1em;
+}
